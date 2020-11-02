@@ -9,5 +9,5 @@ import (
 )
 
 func main() {
-	fmt.Println("%v", one.One + two.Two + three.Three)
+	fmt.Println(one.One + two.Two + three.Three)
 }
