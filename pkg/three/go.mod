@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/KSerrania/go-test/pkg/one v0.7.0
-	github.com/KSerrania/go-test/pkg/two v0.7.0
-	github.com/stretchr/testify v1.6.1
+	github.com/KSerrania/go-test/pkg/one v0.7.0.1
+	github.com/KSerrania/go-test/pkg/two v0.7.0.1
+	github.com/stretchr/testify v1.6.1.1
 )
