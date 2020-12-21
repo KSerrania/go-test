@@ -63,6 +63,21 @@ go_repository(
     version = "v3.0.0-20200313102051-9f266ea9e77c",
 )
 
+local_repository(
+    name = "com_github_kserrania_go_test_pkg_one",
+    path = "./pkg/one"
+)
+
+local_repository(
+    name = "com_github_kserrania_go_test_pkg_two",
+    path = "./pkg/two"
+)
+
+local_repository(
+    name = "com_github_kserrania_go_test_pkg_three",
+    path = "./pkg/three"
+)
+
 go_rules_dependencies()
 
 go_register_toolchains(version = "1.15.5")

@@ -10,9 +10,9 @@ go_library(
     importpath = "github.com/KSerrania/go-test",
     visibility = ["//visibility:private"],
     deps = [
-        "//pkg/one",
-        "//pkg/three",
-        "//pkg/two",
+        "@com_github_kserrania_go_test_pkg_one//:one",
+        "@com_github_kserrania_go_test_pkg_three//:three",
+        "@com_github_kserrania_go_test_pkg_two//:two",
     ],
 )
 

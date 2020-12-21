@@ -9,12 +9,12 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/KSerrania/go-test/pkg/two",
     visibility = ["//visibility:public"],
-    deps = ["//pkg/one"],
+    deps = ["@com_github_kserrania_go_test_pkg_one//:one"],
 )
 
 go_test(
     name = "two_test",
     srcs = ["main_test.go"],
     embed = [":two"],
-    deps = ["@com_github_stretchr_testify//assert:go_default_library"],
+    deps = ["@com_github_stretchr_testify//assert"],
 )

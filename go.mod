@@ -9,7 +9,7 @@ replace (
 )
 
 require (
-	github.com/KSerrania/go-test/pkg/one v0.9.0
-	github.com/KSerrania/go-test/pkg/three v0.9.0
-	github.com/KSerrania/go-test/pkg/two v0.9.0
+	github.com/KSerrania/go-test/pkg/one v0.10.0
+	github.com/KSerrania/go-test/pkg/three v0.10.0
+	github.com/KSerrania/go-test/pkg/two v0.10.0
 )
