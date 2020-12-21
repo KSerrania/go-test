@@ -1,0 +1,20 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/KSerrania/go-test/pkg/two
+gazelle(name = "gazelle")
+
+go_library(
+    name = "two",
+    srcs = ["main.go"],
+    importpath = "github.com/KSerrania/go-test/pkg/two",
+    visibility = ["//visibility:public"],
+    deps = ["//pkg/one"],
+)
+
+go_test(
+    name = "two_test",
+    srcs = ["main_test.go"],
+    embed = [":two"],
+    deps = ["@com_github_stretchr_testify//assert:go_default_library"],
+)
