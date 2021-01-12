@@ -1,3 +1,9 @@
+github.com/KSerrania/go-test/pkg/one/v3 v3.0.0 h1:rE7Eq6LDjggElE+Awgn31hJz0yKF4dCAfaoISrCCkJk=
+github.com/KSerrania/go-test/pkg/one/v3 v3.0.0/go.mod h1:jCzV5ELKuRbANfFzTQKlaJgU1taAIbNzRS0eewC6yOk=
+github.com/KSerrania/go-test/pkg/three/v3 v3.0.0 h1:8hZjZunUhYIQOllvDQHgu1YgD4hO3Y9X+Cg5gnigEPs=
+github.com/KSerrania/go-test/pkg/three/v3 v3.0.0/go.mod h1:Lbr+NiJpC90d8neBEPxatmnwjfF5ihBa1GRiZGrPbxQ=
+github.com/KSerrania/go-test/pkg/two/v3 v3.0.0 h1:L8UYZT8i73bce4KahWq3KG3zowuDvL2QI1Q0v9lLDjo=
+github.com/KSerrania/go-test/pkg/two/v3 v3.0.0/go.mod h1:YZtpDbYgu0FbAIQdUFe7mDdgifcMYtSP8QKlZcYeC58=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
