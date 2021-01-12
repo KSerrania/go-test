@@ -1,4 +1,4 @@
-module github.com/KSerrania/go-test/pkg/one/v2
+module github.com/KSerrania/go-test/pkg/one/v3
 
 go 1.14
 

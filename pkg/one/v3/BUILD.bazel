@@ -1,13 +1,13 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/KSerrania/go-test/pkg/one/v2
+# gazelle:prefix github.com/KSerrania/go-test/pkg/one/v3
 gazelle(name = "gazelle")
 
 go_library(
     name = "one",
     srcs = ["main.go"],
-    importpath = "github.com/KSerrania/go-test/pkg/one/v2",
+    importpath = "github.com/KSerrania/go-test/pkg/one/v3",
     visibility = ["//visibility:public"],
 )
 
