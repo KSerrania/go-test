@@ -1,7 +1,7 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/KSerrania/go-test/pkg/one/v1
+# gazelle:prefix github.com/KSerrania/go-test/pkg/one/v2
 gazelle(name = "gazelle")
 
 go_library(
