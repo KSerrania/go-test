@@ -65,7 +65,7 @@ go_repository(
 
 local_repository(
     name = "com_github_kserrania_go_test_pkg_one",
-    path = "../one"
+    path = "../one/v1"
 )
 
 

@@ -1,19 +1,23 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/KSerrania/go-test/pkg/one
+# gazelle:prefix github.com/KSerrania/go-test/pkg/three
 gazelle(name = "gazelle")
 
 go_library(
-    name = "one",
+    name = "three",
     srcs = ["main.go"],
-    importpath = "github.com/KSerrania/go-test/pkg/one",
+    importpath = "github.com/KSerrania/go-test/pkg/three/v1",
     visibility = ["//visibility:public"],
+    deps = [
+        "@com_github_kserrania_go_test_pkg_one//:one",
+        "@com_github_kserrania_go_test_pkg_two//:two",
+    ],
 )
 
 go_test(
-    name = "one_test",
+    name = "three_test",
     srcs = ["main_test.go"],
-    embed = [":one"],
+    embed = [":three"],
     deps = ["@com_github_stretchr_testify//assert:go_default_library"],
 )
