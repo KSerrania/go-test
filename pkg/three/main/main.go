@@ -1,8 +1,8 @@
 package three
 
 import (
-	one "github.com/KSerrania/go-test/pkg/one/v1"
-	two "github.com/KSerrania/go-test/pkg/two/v1"
+	one "github.com/KSerrania/go-test/pkg/one/v2"
+	two "github.com/KSerrania/go-test/pkg/two/v2"
 )
 
 // Three is 1 + 2

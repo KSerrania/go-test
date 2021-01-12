@@ -65,12 +65,12 @@ go_repository(
 
 local_repository(
     name = "com_github_kserrania_go_test_pkg_one",
-    path = "../one/v1"
+    path = "../../one/v1"
 )
 
 local_repository(
     name = "com_github_kserrania_go_test_pkg_two",
-    path = "../two/v1"
+    path = "../../two/v1"
 )
 
 go_rules_dependencies()
